@@ -4,7 +4,7 @@ from aiogram.types import Message
 
 from bots.telegram.async_requests.admin_async_request import get_app_for_admin
 from bots.telegram.admin.kb import new_app_admin
-ADMIN_CHAT_ID = 7469058848
+ADMIN_CHAT_ID = 315590032
 router = Router()
 
 async def send_for_admin(app_id: int, message: Message):

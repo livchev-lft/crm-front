@@ -6,7 +6,6 @@ def new_app_admin(app_id: int, client_id: int) -> InlineKeyboardMarkup:
         inline_keyboard=[
             [InlineKeyboardButton(text="подтвердить заявку", callback_data=f"apply_app_{app_id}")],
             [InlineKeyboardButton(text="Отклонить", callback_data=f"reject_app_{app_id}")],
-            [InlineKeyboardButton(text="👤 Открыть Telegram",url=f"tg://user?id={client_id}")]
         ]
     )
 
